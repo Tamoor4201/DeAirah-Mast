@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index, follow" />
+
+
+
+  <!-- Update favicon href attribute with image of yourself -->
+  <link rel="shortcut icon" href="assets/images/favicons.png" type="image/png" />
+
+  <!-- Preloading fonts for better performance -->
+
+  <link rel="preload" href="assets/fonts/Mona-Sans.woff2" as="font" type="font/woff2" crossorigin />
+
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+
+  <!-- Your name here -->
+  <title>DeAirah Mast's Portfolio</title>
+</head>
+
+<body>
+
+  <script>
+    const theme = localStorage.getItem("theme") || "dark";
+    document.body.classList.add(theme);
+  </script>
+
+  <header class="header">
+
+    <div class="menu-btn-container">
+      <div class="container">
+        <button type="button" class="menu-btn">menu</button>
+      </div>
+    </div>
+
+    <nav class="nav hidden">
+      <ol class="nav-items">
+        <li class="nav-item"><a href="#">Home</a></li>
+        <li class="nav-item"><a href="#work">Experiences</a></li>
+
+        <li class="nav-item"><a href="#skills">My Skills</a></li>
+        <li class="nav-item">
+          <a href="#contact" data-focused="last-focused">Contact</a>
+        </li>
+      </ol>
+    </nav>
+
+    <div class="container">
+      <div class="header-textbox">
+        <!-- Replace with your name and job title -->
+        <h1 class="h1">
+          Hi, I'm DeAirah Mast <br />
+
+        </h1>
+
+        <!-- Add a small introductory paragraph about yourself -->
+        <p class="header-text">
+          Business Development | Customer Relationship Management (CRM) | Partnership Building
+        </p>
+
+        <div class="header-btns">
+          <a href="#contact" class="btn btn-cta">Hire me</a>
+          <a href="#work" class="btn btn-secondary">See my work</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="work">
+      <div class="container">
+        <h2 class="h2" id="work">Experiences</h2>
+        <div class="work-boxes">
+          <div class="work-box">
+            <div class="work-textbox">
+              <!-- Add your project title here -->
+              <h3 class="h3">Account Executive</h3>
+              <!-- Add small description of your project  -->
+              <p class="work-text">
+                Aspire Partners USA | Remote (Nov 2023 - Present)
+              </p>
+              <ul>
+                <li>Cultivated relationships with startups and mid-market companies</li>
+                <li>Managed sales cycle and closed deals</li>
+                <li>Leveraged API and platform products</li>
+                <li>Collaborated on go-to-market strategies</li>
+                <li>Sold fintech solutions to enterprise clients</li>
+                <li>Utilized CRM tools and sales methodologies</li>
+              </ul>
+
+
+
+
+
+              <div class="work-links">
+                <!-- Add url of project in href attribute -->
+                <a href="https://aspirepartners.com/" target="_blank" rel="noopener" class="link">Explore</a>
+
+                <!-- Add link to project source code in href attribute if applicable otherwise feel free to delete or comment the markup -->
+
+              </div>
+            </div>
+
+            <!-- Update img src and alt attribute  -->
+
+            <picture class="work-img">
+              <img loading="lazy"
+                src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_300,h_78/https://aspirepartners.com/wp-content/uploads/2022/01/aspire-main-logo_email-header.jpg"
+                alt="agency elevation" />
+            </picture>
+          </div>
+          <div class="work-box">
+            <div class="work-textbox">
+              <!-- Add your project title here -->
+              <h3 class="h3">Business Development Executive & Independent Business Owner</h3>
+              <!-- Add small description of your project  -->
+
+              <p class="work-text">Market Essentials 4U</p>
+              <ul>
+                <li>Directed business development and client management</li>
+                <li>Led a sales team to increase revenue</li>
+                <li>Built strong relationships with key stakeholders</li>
+                <li>Negotiated favorable agreements for customers</li>
+                <li>Conducted market research and analysis</li>
+                <li>Developed business strategies to penetrate new markets</li>
+                <li>Networked at industry conferences and seminars</li>
+              </ul>
+
+              <div class="work-links">
+                <!-- Add url of project in href attribute -->
+                <a href="https://me4ullc.com/" target="_blank" rel="noopener" class="link">Explore</a>
+
+                <!-- Add link to project source code in href attribute if applicable otherwise feel free to delete or comment the markup -->
+
+              </div>
+            </div>
+            <!-- Update img src and alt attribute  -->
+            <picture class="work-img">
+              <img loading="lazy" src="https://me4ullc.com/wp-content/uploads/2024/03/ME4U-ff-01.png"
+                alt="portfolio template" />
+            </picture>
+          </div>
+          <div class="work-box">
+            <div class="work-textbox">
+              <!-- Add your project title here -->
+              <h3 class="h3">Business Relationship Consultant | Vocational Rehabilitation Counselor</h3>
+              <!-- Add small description of your project  -->
+              <p class="work-text">
+                Michigan Department of Labor and Economic Opportunity (LEO)
+              </p>
+              <ul>
+
+                <li>Assessed client abilities, needs, and eligibility through interviews and records</li>
+                <li>Oversaw business development for Michigan Rehabilitation Services (MRS)</li>
+                <li>Networked with HR and Hiring Managers at job fairs to place clients</li>
+                <li>Maintained detailed records and case files</li>
+              </ul>
+
+
+              <div class="work-links">
+                <!-- Add url of project in href attribute -->
+                <a href="https://www.michigan.gov/leo/" target="_blank" rel="noopener" class="link">Explore</a>
+
+              </div>
+            </div>
+            <!-- Update img src and alt attribute  -->
+            <picture class="work-img">
+              <img loading="lazy" src="https://i.postimg.cc/yY1Lj7xB/image.png" alt="contribute dev" />
+            </picture>
+          </div>
+          <div class="work-box">
+            <div class="work-textbox">
+              <!-- Add your project title here -->
+              <h3 class="h3">Service Specialist 12 & Child Welfare Services</h3>
+              <!-- Add small description of your project  -->
+              <p class="work-text">
+                Michigan Department of Health & Human Services
+              </p>
+              <ul>
+
+                <li>Partnered with advocacy organizations, government agencies, and non-profits to provide client
+                  resources</li>
+                <li>Scheduled service appointments, maintained compliance, and ensured optimal client support</li>
+                <li>Fostered team relationship management and trained on procedures and policies</li>
+
+                <li>Analyzed district reports to identify improvement opportunities</li>
+              </ul>
+
+
+              <div class="work-links">
+                <!-- Add url of project in href attribute -->
+                <a href="https://www.michigan.gov/mdhhs" target="_blank" rel="noopener" class="link">Explore</a>
+
+
+              </div>
+            </div>
+            <!-- Update img src and alt attribute  -->
+            <picture class="work-img">
+              <img loading="lazy" src="https://i.postimg.cc/1XJc2NXS/image.png" alt="contribute dev" />
+            </picture>
+          </div>
+          <div class="work-box">
+            <div class="work-textbox">
+              <!-- Add your project title here -->
+              <h3 class="h3">Homeless Outreach Associate | United Way</h3>
+              <!-- Add small description of your project  -->
+              <p class="work-text">
+                AmeriCorps Sep 2009 - Sep 2010
+              </p>
+              <ul>
+
+                <li>Planned and coordinated community outreach events, organizing 100-person events</li>
+                <li>Recruited and selected potential members at job fairs</li>
+                <li>Coached and mentored new team members on AmeriCorps values and job functions</li>
+                <li>Provided clients with career-building opportunities like resume writing and interview techniques
+                </li>
+              </ul>
+
+
+              <div class="work-links">
+                <!-- Add url of project in href attribute -->
+                <a href="https://americorps.gov/" target="_blank" rel="noopener" class="link">Explore</a>
+
+                <!-- Add link to project source code in href attribute if applicable otherwise feel free to delete or comment the markup -->
+
+              </div>
+            </div>
+            <!-- Update img src and alt attribute  -->
+            <picture class="work-img">
+              <img loading="lazy" src="https://americorps.gov/themes/americorps/logo.svg" alt="contribute dev" />
+            </picture>
+          </div>
+          <div class="work-box">
+            <div class="work-textbox">
+              <!-- Add your project title here -->
+              <h3 class="h3">
+                Juvenile SpecialistJuvenile Specialist
+              </h3>
+              <!-- Add small description of your project  -->
+              <p class="work-text">
+                The Guidance Center
+              </p>
+              <ul>
+
+                <li>Managed youth cases, developed treatment plans, and conducted drug screenings</li>
+                <li>Visited detention centers and attended court hearings</li>
+                <li>Facilitated life skills groups and monitored treatment compliance</li>
+
+              </ul>
+
+              <div class="work-links">
+                <!-- Add url of project in href attribute -->
+                <a href="https://www.guidance-center.org" target="_blank" rel="noopener" class="link">Explore</a>
+
+                <!-- Add link to project source code in href attribute if applicable otherwise feel free to delete or comment the markup -->
+
+              </div>
+            </div>
+            <!-- Update img src and alt attribute  -->
+            <picture class="work-img">
+              <img loading="lazy"
+                src="https://www.guidance-center.org/wp-content/uploads/2022/09/the-guidance-center-horiz-logo-1.jpg"
+                alt="contribute dev" />
+            </picture>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- I write blog posts on dev.to at https://dev.to/devsyedmohsin. I have linked my articles accordingly, so please update the article title, description, and link accordingly. For example, if you write an article on Medium, link your article to Medium. Also, don't forget to update the reaction count. -->
+
+    <section class="article">
+      <div class="container">
+        <h2 class="h2" id="blog">My Skills</h2>
+        <div class="article-boxes">
+          <article class="article-box featured-article">
+            <div class="article-textbox">
+              <div>
+                <h3 class="h3 skillls">
+                  <ul>
+                    <li>Business Development <br></li>
+                    <li>Leadership & Team Building<br></li>
+                    <li>Problem Solving & Prioritization <br></li>
+                    <li> Organizational skills <br></li>
+                    <li> Excellent Verbal and Written Communication</li>
+                  </ul>
+                </h3>
+                <style>
+                  .skillls {
+                    width: 600px;
+                  }
+                </style>
+
+              </div>
+              <div class="article-info">
+
+              </div>
+            </div>
+            <picture class="article-illustration">
+              <img src="assets/images/featured-blog.webp" alt="MacBook Pro" loading="lazy" />
+            </picture>
+          </article>
+          <article class="article-box">
+            <div class="article-textbox">
+              <div>
+                <h3 class="h4">TECHNICAL SKILLS</h3>
+                <p class="article-text">
+                  <ul>
+                    <li>Microsoft Office <br></li>
+                    <li>Salesforce<br></li>
+                    <li>Cybersecurity <br></li>
+                    <li> SaaS | CRM | AI <br></li>
+                    <li> Big Data |iOS/Android|</li>
+                    <li> Windows| HRIS| </li>
+                  </ul>
+
+                </p>
+              </div>
+
+            </div>
+          </article>
+          <article class="article-box">
+            <div class="article-textbox">
+              <div>
+                <h3 class="h4">
+                  Core Competencies
+
+                </h3>
+                <p class="article-text">
+                  <ul>
+                    <li>Negotiations</li>
+                    <li>Employee Relations</li>
+                    <li>Partnership Building</li>
+                    <li>Presentation Skills</li>
+                    <li>Strategic Planning</li>
+                    <li>Training and Development</li>
+                  </ul>
+
+                </p>
+              </div>
+
+            </div>
+          </article>
+          <article class="article-box">
+            <div class="article-textbox">
+              <div>
+                <h3 class="h4">Professional Skills</h3>
+                <p class="article-text">
+                  <ul>
+                    <li>Sales</li>
+                    <li>Government Contracting</li>
+                    <li>Strong Interpersonal Skills</li>
+                    <li>Regulatory Compliance</li>
+                    <li>Talent Acquisition</li>
+                    <li>Marketing</li>
+                  </ul>
+                </p>
+
+              </div>
+
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Update skills-img src, alt  and title attributes I have added some other logos in assets/images/skill for your convenience feel free to pick one if required  -->
+
+
+
+    <!-- Replace testimonials, author name, author job, img src and, alt attributes -->
+
+    <section>
+      <h2 class="h2">Education</h2>
+
+
+      <div class="container_gird">
+        <div class="one same">
+          <div class="pic">
+            <img
+              src="https://media.licdn.com/dms/image/D4E0BAQGUHrm7gZ6AQA/company-logo_100_100/0/1687533758176/yale_school_of_management_logo?e=1729728000&v=beta&t=F0akEH0w43UnVD533JgipT57s2bY-LCdK4Ys1a9rdcs"
+              alt="">
+            <h1>Yale School of Management</h1><br>
+
+          </div>
+          <div class="content">
+
+            <br>
+            <p>
+              <ul>
+                <li>Executive Education , Women's Leadership Program</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+        <div class="two same">
+          <div class="pic">
+            <img
+              src="https://media.licdn.com/dms/image/D560BAQFtFlAVFQ8YVA/company-logo_100_100/0/1707171907739/saint_james_school_of_medicine_2_logo?e=1729728000&v=beta&t=W3RjyCj-Jxcrgq5TUIq0PL-IAHmwgC8GB4A8yuyJUYk"
+              alt="">
+            <h1>Saint James School of MedicineSaint
+            </h1><br>
+
+          </div>
+          <div class="content">
+
+            <br>
+            <p>
+              <ul>
+                <li>Doctor of Medicine - MDDoctor of Medicine - MD</li>
+
+              </ul>
+            </p>
+          </div>
+        </div>
+        <div class="three same">
+          <div class="pic">
+            <img
+              src="https://media.licdn.com/dms/image/C560BAQEGQYvlDi-5OQ/company-logo_100_100/0/1630646463814/university_of_phoenix_logo?e=1729728000&v=beta&t=wcOSwFSmxKkX1Ik3t7BXe6lCsYrqfCmViqLiHdhM2XE"
+              alt="">
+            <h1>
+              University of Phoenix
+            </h1><br>
+
+          </div>
+          <div class="content">
+
+            <br>
+            <p>
+              <ul>
+                <li> Master of Science - MS, Mental Health Counseling</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+        <div class="four same">
+          <div class="pic">
+            <img
+              src="https://media.licdn.com/dms/image/C560BAQFx0VIjYYSXBw/company-logo_100_100/0/1645471386372/michigan_state_university_logo?e=1729728000&v=beta&t=M3-Y3ofPRPv5xoBwitnGnyGymDy7dYVlNAhboYi7gGI"
+              alt="">
+            <h1>
+              Michigan State University</h1><br>
+
+          </div>
+          <div class="content">
+
+            <br>
+            <p>
+
+              <ul>
+                <li> Bachelor of Arts - BA, Psychology </li>
+                <li> Michigan State University Alumni Association <br></li>
+                <li> MSU Adolescent Diversion Project <br></li>
+                <li> MSU African American Mentoring Program <br></li>
+                <li> MSU Black Student Alumni Association</li>
+            </p>
+
+            </ul>
+          </div>
+        </div>
+
+      </div>
+      <style>
+        .container_gird {
+
+          padding: 4% 18%;
+          display: grid;
+
+
+          grid-template-columns: 1fr 1fr;
+
+        }
+
+        .container_gird .same {
+          width: 450px;
+          height: 250px;
+          padding: 20px;
+
+
+        }
+
+        .pic {
+          display: flex;
+          gap: 15px;
+        }
+
+        .pic img {
+          margin-top: 10px;
+          align-items: center;
+          width: 50px;
+          height: 50px;
+        }
+      </style>
+
+    </section>
+    <section>
+      <h2 class="h2">Trainings</h2>
+    
+      <div class="container_gird">
+        <div class="one same">
+          <div class="pic">
+            <img src="https://media.licdn.com/dms/image/C560BAQFx0VIjYYSXBw/company-logo_100_100/0/1645471386372/michigan_state_university_logo?e=1729728000&v=beta&t=M3-Y3ofPRPv5xoBwitnGnyGymDy7dYVlNAhboYi7gGI" alt="">
+            <h1>State of Michigan</h1><br>
+          </div>
+          <div class="content">
+            <br>
+            <p>DEI-Implicit Bias Compliance Training</p>
+          </div>
+        </div>
+        <div class="two same">
+          <div class="pic">
+            <img src="https://media.licdn.com/dms/image/C560BAQFx0VIjYYSXBw/company-logo_100_100/0/1645471386372/michigan_state_university_logo?e=1729728000&v=beta&t=M3-Y3ofPRPv5xoBwitnGnyGymDy7dYVlNAhboYi7gGI" alt="">
+            <h1>SUITE</h1><br>
+          </div>
+          <div class="content">
+            <br>
+            <p>Business Analyst Professional (BAP)</p>
+          </div>
+        </div>
+        <div class="three same">
+          <div class="pic">
+            <img src="https://media.licdn.com/dms/image/C560BAQFx0VIjYYSXBw/company-logo_100_100/0/1645471386372/michigan_state_university_logo?e=1729728000&v=beta&t=M3-Y3ofPRPv5xoBwitnGnyGymDy7dYVlNAhboYi7gGI" alt="">
+            <h1>SUITE</h1><br>
+          </div>
+          <div class="content">
+            <br>
+            <p>Project, Program, and Portfolio Management Methodology (3PMM)</p>
+          </div>
+        </div>
+        <div class="four same">
+          <div class="pic">
+            <img src="https://media.licdn.com/dms/image/C560BAQFx0VIjYYSXBw/company-logo_100_100/0/1645471386372/michigan_state_university_logo?e=1729728000&v=beta&t=M3-Y3ofPRPv5xoBwitnGnyGymDy7dYVlNAhboYi7gGI" alt="">
+            <h1>State of Michigan</h1><br>
+          </div>
+          <div class="content">
+            <br>
+            <p>Cybersecurity</p>
+          </div>
+        </div>
+      </div>
+      <style>
+        .container_gird {
+          padding: 4% 18%;
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+        }
+    
+        .container_gird .same {
+          width: 450px;
+          height: 250px;
+          padding: 20px;
+        }
+    
+        .pic {
+          display: flex;
+          gap: 15px;
+        }
+    
+        .pic img {
+          margin-top: 10px;
+          align-items: center;
+          width: 50px;
+          height: 50px;
+        }
+      </style>
+    </section>
+    
+
+    <section class="contact">
+      <div class="container">
+        <h2 class="h2" id="contact">Contact Information</h2>
+        <div class="contact-content">
+          <div class="contact-textbox">
+            <!-- Please comment this component if you're not available for hire -->
+            <strong href="#" class="hire-alert">
+              <span class="indicator"></span>
+              Available for hire
+            </strong>
+            <p class="contact-text">
+              As a business development expert, I excel in building client relationships, driving growth, and
+              implementing innovative solutions. My skills in sales, government contracting, and regulatory compliance,
+              along with strong interpersonal abilities, make me a valuable asset to any organization, ensuring
+              strategic growth and a competitive edge.
+            </p>
+      
+        
+          </div>
+          <form action="#" class="contact-form" netlify>
+            <div class="form-field">
+              <b>linkedin :</b> <a href="https://www.linkedin.com/in/deairah-mast-8179b11b"> <label
+                  for="name">https://www.linkedin.com/in/deairah-mast-8179b11b</label></a>
+              <b> Visit my Business :</b> <a href="https://me4ullc.com"> <label for="name">https://me4ullc.com </label></a>
+             
+            </div>
+
+
+
+            <div class="form-field">
+              
+              <b> Emails</b> <a href="Banksdea@gmail.com"> <label for="name">Banksdea@gmail.com </label></a>
+              <a href="Mastd1@Michigan.gov"> <label for="name">
+                Mastd1@Michigan.gov
+               
+                 </label></a>
+              <a href="info@me4ullc.com"> <label for="name">info@me4ullc.com </label></a>
+            </div>
+            
+            <br> <button type="submit" class="btn btn-cta">Contact Me</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <!-- Update href and src attributes -->
+        <nav>
+          <ol class="footer-links">
+            <li class="footer-link">
+              <a title="Instagram" href="https://www.instagram.com/" target="_blank" rel="noopener"><img
+                  loading="lazy" src="https://img.icons8.com/?size=50&id=32309&format=png"  /></a>
+            </li>
+           
+            <li class="footer-link">
+              <a title="Linkedin" href="https://www.linkedin.com/in/deairah-mast-8179b11b/" target="_blank"
+                rel="noopener"><img loading="lazy" src="assets/images/social-links/linkedin.svg" alt="Linkedin" /></a>
+            </li>
+            <li class="footer-link">
+              <a title="X" href="https://Twitter.com/" target="_blank" rel="noopener"><img
+                  loading="lazy" src="https://img.icons8.com/?size=50&id=phOKFKYpe00C&format=png" alt="Twitter" /></a>
+            </li>
+          </ol>
+        </nav>
+        <p class="footer-text">
+          &copy; <span>2024</span><a target="_blank" rel="noopener"
+            href="">
+            
+            DeAirah Mast. </a>
+        </p>
+        <label class="theme-switch" for="theme-switch">
+          <span>Dark Theme</span>
+          <input type="checkbox" id="theme-switch" role="switch" />
+        </label>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
