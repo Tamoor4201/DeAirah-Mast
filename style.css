@@ -1251,3 +1251,10 @@ input:checked {
   --thumb-position: 100%;
   background-color: var(--track-active);
 }
+
+.responsive-image {
+  width: 100%;
+  max-width: 190px;
+  border-radius: 50%;
+  height: auto;
+}
