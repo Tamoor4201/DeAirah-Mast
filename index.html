@@ -493,8 +493,7 @@
   
     <section>
       <h2 class="h2">Trainings</h2>
-    
-      <div class="container_gird">
+      <div class="container_grid">
         <div class="one same">
           <div class="pic">
             <img src="https://media.licdn.com/dms/image/C560BAQFx0VIjYYSXBw/company-logo_100_100/0/1645471386372/michigan_state_university_logo?e=1729728000&v=beta&t=M3-Y3ofPRPv5xoBwitnGnyGymDy7dYVlNAhboYi7gGI" alt="">
@@ -536,34 +535,64 @@
           </div>
         </div>
       </div>
-      <style>
-        .container_gird {
-          padding: 4% 18%;
-          display: grid;
-          grid-template-columns: 1fr 1fr;
-        }
+    </section>
     
-        .container_gird .same {
-          width: 450px;
-          height: 250px;
-          padding: 20px;
+    <style>
+      .container_grid {
+        padding: 4% 18%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+      }
+    
+      .container_grid .same {
+        width: 100%;
+        max-width: 450px;
+        height: auto;
+        padding: 20px;
+        box-sizing: border-box;
+      }
+    
+      .pic {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+      }
+    
+      .pic img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+      }
+    
+      @media (max-width: 768px) {
+        .container_grid {
+          padding: 4% 10%;
+          grid-template-columns: 1fr;
         }
     
         .pic {
-          display: flex;
-          gap: 15px;
+          flex-direction: column;
+          align-items: flex-start;
         }
     
         .pic img {
-          margin-top: 10px;
-          align-items: center;
-          width: 50px;
-          height: 50px;
+          margin-bottom: 10px;
         }
-      </style>
-    </section>
+      }
     
-
+      @media (max-width: 480px) {
+        .container_grid {
+          padding: 4% 5%;
+        }
+    
+        .pic img {
+          width: 40px;
+          height: 40px;
+        }
+      }
+    </style>
+    
     <section class="contact">
       <div class="container">
         <h2 class="h2" id="contact">Contact Information</h2>
