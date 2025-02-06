@@ -7,23 +7,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="robots" content="index, follow" />
 
+  <meta name="description"
+    content="Welcome to Tamoor Hassan's portfolio. I am a Full-Stack web developer specializing in building user-friendly, responsive, and scalable websites. Explore my projects and contact me for collaborations." />
 
+  <!-- Google / Search Engine Meta Tags -->
+  <meta itemprop="name" content="Tamoor Hassan's Portfolio">
+  <meta itemprop="description"
+    content="I am a Full-Stack web developer specializing in user-friendly, responsive, and scalable websites. Check out my work and let's collaborate!">
+  <meta itemprop="image" content="assets/images/sharing-card.png">
 
-  <!-- Update favicon href attribute with image of yourself -->
-  <link rel="shortcut icon"
-    href="https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto,t_profile_original/v1/attachments/profile/photo/ce4ba07c3380cc5f75c527dea5bbda57-1721143702598/d2821542-456f-4089-a69f-eb4a69852012.jpg"
-    type="image/png" />
+  <!-- Open Graph (Facebook & LinkedIn) Meta Tags -->
+  <meta property="og:url" content="https://your-portfolio.com">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Tamoor Hassan - Full Stack Developer">
+  <meta property="og:description"
+    content="Explore my portfolio and projects as a Full-Stack web developer. I specialize in modern, scalable web applications.">
+  <meta property="og:image" content="assets/images/sharing-card.png">
 
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Tamoor Hassan - Full Stack Developer">
+  <meta name="twitter:description"
+    content="Discover my portfolio and latest projects. I build modern, scalable web applications as a Full-Stack developer.">
+  <meta name="twitter:image" content="assets/images/sharing-card.png">
 
-  <!-- Preloading fonts for better performance -->
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png" />
 
-  <link rel="preload" href="assets/fonts/Mona-Sans.woff2" as="font" type="font/woff2" crossorigin />
+  <!-- Preloading Fonts for Performance -->
+  <link rel="preload" href="assets/fonts/Mona-Sans.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
 
+  <!-- Styles & Scripts -->
   <link rel="stylesheet" href="style.css" />
   <script src="script.js" defer></script>
 
+
   <!-- Your name here -->
-  <title>DeAirah Mast's Portfolio</title>
+  <title>Tamoor's Portfolio</title>
 </head>
 
 <body>
@@ -44,8 +64,8 @@
     <nav class="nav hidden">
       <ol class="nav-items">
         <li class="nav-item"><a href="#">Home</a></li>
-        <li class="nav-item"><a href="#work">Experiences</a></li>
-
+        <li class="nav-item"><a href="#work">My Work</a></li>
+        <li class="nav-item"><a href="#blog">See Blog</a></li>
         <li class="nav-item"><a href="#skills">My Skills</a></li>
         <li class="nav-item">
           <a href="#contact" data-focused="last-focused">Contact</a>
@@ -56,229 +76,170 @@
     <div class="container">
       <div class="header-textbox">
         <!-- Replace with your name and job title -->
-        <img src="https://i.postimg.cc/ZKW7x3Np/Headshot-002-2.jpg" class="responsive-image">
-
         <h1 class="h1">
-          Hi, I'm DeAirah Mast <br />
-
+          Hi, I'm Tamoor Hassan<br />
+          Frontend Web Developer
         </h1>
 
         <!-- Add a small introductory paragraph about yourself -->
-        <p class="header-text" style="padding:0px; margin-bottom: 4px;">
-          Business Development | Project Management | Account Executive | Partnership Building</p>
-        <p style="width: 60%; margin-bottom: 2px;">Accomplished and
-          solutions-oriented leader with over 15 years of diverse experience in business development, sales, talent
-          acquisition, and government relations across various sectors, including tech and non-profit organizations.</p>
-
+        <p class="header-text">
+          A Full-Stack Developer and Interface Designer specializing in building UX-rich, accessible, and
+          high-performance websites and applications.
+        </p>
 
         <div class="header-btns">
           <a href="#contact" class="btn btn-cta">Hire me</a>
           <a href="#work" class="btn btn-secondary">See my work</a>
         </div>
-
       </div>
     </div>
   </header>
 
   <main>
+    <section class="client">
+      <div class="container">
+        <h2 class="h2">Trusted by</h2>
+        <div class="logos">
+          <!-- Replace alt with client/company name and src attributes of images with path to relative img of client logo -->
+          <div class="logo-group">
+            <img loading="lazy" src="assets/images/trusted-by/stripe.svg" alt="Ideacraft" class="logo hide to-top" />
+
+            <img loading="lazy" src="assets/images/trusted-by/datastax.svg" alt="Golden grid" class="logo" />
+
+            <img loading="lazy" src="assets/images/trusted-by/gitlogo.svg" alt="Theia" class="logo hide to-bottom" />
+          </div>
+          <div class="logo-group">
+            <img loading="lazy" src="assets/images/trusted-by/fiverr.jpeg" alt="General motors"
+              class="logo hide to-top" />
+
+            <img loading="lazy" src="assets/images/trusted-by/logo.svg" alt="Chippy" class="logo" />
+            <img loading="lazy" src="assets/images/trusted-by/shopify.svg" alt="Shopify" class="logo hide to-bottom" />
+          </div>
+          <div class="logo-group">
+            <img loading="lazy" src="assets/images/trusted-by/agency-elevation.svg" alt="Agency elevation"
+              class="logo hide to-top" /><img loading="lazy" src="assets/images/trusted-by/gitlab.svg" alt="Ron jones"
+              class="logo" /><img loading="lazy" src="assets/images/trusted-by/duolingo.svg" alt="Mighty furniture's"
+              class="logo hide to-bottom" />
+          </div>
+          <div class="logo-group">
+            <img loading="lazy" src="assets/images/trusted-by/coyote.svg" alt="Bulls eye" class="logo hide to-top" />
+            <img loading="lazy" src="assets/images/trusted-by/astrato.svg" alt="Chippy" class="logo" />
+            <img loading="lazy" src="assets/images/trusted-by/mercado.svg" alt="Fastlane" class="logo hide to-bottom" />
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="work">
       <div class="container">
-        <h2 class="h2" id="work">Experiences</h2>
+        <h2 class="h2" id="work">Selected Work</h2>
         <div class="work-boxes">
           <div class="work-box">
             <div class="work-textbox">
-              <!-- Add your project title here -->
-              <h3 class="h3">Business Relationship Consultant | Vocational Rehabilitation Counselor</h3>
-              <!-- Add small description of your project  -->
+              <!-- Project Title -->
+              <h3 class="h3">Re-Wears</h3>
+
+              <!-- Project Description -->
               <p class="work-text">
-                Michigan Department of Labor and Economic Opportunity (LEO)
+                A sustainable fashion marketplace that allows users to buy and sell pre-owned clothing, built with a
+                modern tech stack.
               </p>
-              <ul>
 
-                <li>Assessed client abilities, needs, and eligibility through interviews and records</li>
-                <li>Oversaw business development for Michigan Rehabilitation Services (MRS)</li>
-                <li>Networked with HR and Hiring Managers at job fairs to place clients</li>
-                <li>Maintained detailed records and case files</li>
-              </ul>
-
+              <!-- Technologies Used -->
+              <ol class="work-technologies">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Django</li>
+                <li>PostgreSQL</li>
+              </ol>
 
               <div class="work-links">
-                <!-- Add url of project in href attribute -->
-                <a href="https://www.michigan.gov/leo/" target="_blank" rel="noopener" class="link">Explore</a>
+                <!-- Live Project Link -->
+                <a href="https://www.re-wears.com/howitworks" target="_blank" rel="noopener" class="link">
+                  Explore this project
+                </a>
+
 
               </div>
             </div>
-            <!-- Update img src and alt attribute  -->
+
+            <!-- Project Image -->
             <picture class="work-img">
-              <img loading="lazy" src="https://i.postimg.cc/yY1Lj7xB/image.png" alt="contribute dev" />
+              <img loading="lazy" src="assets/images/work/www.re-wears.com_.png" alt="Re-Wears Project Screenshot" />
             </picture>
+
           </div>
           <div class="work-box">
             <div class="work-textbox">
-              <!-- Add your project title here -->
-              <h3 class="h3">Business Development Executive & Independent Business Owner</h3>
-              <!-- Add small description of your project  -->
+              <!-- Project Title -->
+              <h3 class="h3">UKMLA2</h3>
 
-              <p class="work-text">Market Essentials 4U</p>
-              <ul>
-                <li>Directed business development and client management</li>
-                <li>Led a sales team to increase revenue</li>
-                <li>Built strong relationships with key stakeholders</li>
-                <li>Negotiated favorable agreements for customers</li>
-                <li>Conducted market research and analysis</li>
-                <li>Developed business strategies to penetrate new markets</li>
-                <li>Networked at industry conferences and seminars</li>
-              </ul>
+              <!-- Project Description -->
+              <p class="work-text">
+                A comprehensive platform for UK medical licensing assessments, offering study materials, quizzes, and
+                exam preparation resources.
+              </p>
+
+              <!-- Technologies Used -->
+              <ol class="work-technologies">
+                <li>WordPress</li>
+                <li>PHP</li>
+                <li>Elementor</li>
+                <li>MySQL</li>
+              </ol>
 
               <div class="work-links">
-                <!-- Add url of project in href attribute -->
-                <a href="https://me4ullc.com/" target="_blank" rel="noopener" class="link">Explore</a>
+                <!-- Live Project Link -->
+                <a href="https://ukmla2.com/" target="_blank" rel="noopener" class="link">
+                  Explore this project
+                </a>
 
-                <!-- Add link to project source code in href attribute if applicable otherwise feel free to delete or comment the markup -->
 
               </div>
             </div>
-            <!-- Update img src and alt attribute  -->
+
+            <!-- Project Image -->
             <picture class="work-img">
-              <img loading="lazy" src="https://me4ullc.com/wp-content/uploads/2024/03/ME4U-ff-01.png"
-                alt="portfolio template" />
+              <img loading="lazy" src="assets/images/work/ukulama.png" alt="UKMLA2 Website Screenshot" />
             </picture>
           </div>
-
 
           <div class="work-box">
             <div class="work-textbox">
-              <!-- Add your project title here -->
-              <h3 class="h3">Account Executive</h3>
-              <!-- Add small description of your project  -->
+              <!-- Project Title -->
+              <h3 class="h3">LambdaEase</h3>
+
+              <!-- Project Description -->
               <p class="work-text">
-                Aspire Partners USA | Remote (Nov 2023 - Present)
+                A cloud-based solution designed to streamline business processes, offering automation, data management,
+                and efficient workflow solutions.
               </p>
-              <ul>
-                <li>Cultivated relationships with startups and mid-market companies</li>
-                <li>Managed sales cycle and closed deals</li>
-                <li>Leveraged API and platform products</li>
-                <li>Collaborated on go-to-market strategies</li>
-                <li>Sold fintech solutions to enterprise clients</li>
-                <li>Utilized CRM tools and sales methodologies</li>
-              </ul>
 
-
-
-
+              <!-- Technologies Used -->
+              <ol class="work-technologies">
+                <li>React</li>
+                <li>Node.js</li>
+                <li>Express.js</li>
+                <li>MongoDB</li>
+              </ol>
 
               <div class="work-links">
-                <!-- Add url of project in href attribute -->
-                <a href="https://aspirepartners.com/" target="_blank" rel="noopener" class="link">Explore</a>
+                <!-- Live Project Link -->
+                <a href="https://lambdaease.com/" target="_blank" rel="noopener" class="link">
+                  Explore this project
+                </a>
 
-                <!-- Add link to project source code in href attribute if applicable otherwise feel free to delete or comment the markup -->
-
+                
               </div>
             </div>
 
-            <!-- Update img src and alt attribute  -->
-
+            <!-- Project Image -->
             <picture class="work-img">
-              <img loading="lazy"
-                src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_300,h_78/https://aspirepartners.com/wp-content/uploads/2022/01/aspire-main-logo_email-header.jpg"
-                alt="agency elevation" />
+              <img loading="lazy" src="assets/images/work/Screenshot 2025-02-06 173253.png" alt="LambdaEase Website Screenshot" />
             </picture>
           </div>
-          <div class="work-box">
-            <div class="work-textbox">
-              <!-- Add your project title here -->
-              <h3 class="h3">Service Specialist 12 & Child Welfare Services</h3>
-              <!-- Add small description of your project  -->
-              <p class="work-text">
-                Michigan Department of Health & Human Services
-              </p>
-              <ul>
 
-                <li>Partnered with advocacy organizations, government agencies, and non-profits to provide client
-                  resources</li>
-                <li>Scheduled service appointments, maintained compliance, and ensured optimal client support</li>
-                <li>Fostered team relationship management and trained on procedures and policies</li>
-
-                <li>Analyzed district reports to identify improvement opportunities</li>
-              </ul>
-
-
-              <div class="work-links">
-                <!-- Add url of project in href attribute -->
-                <a href="https://www.michigan.gov/mdhhs" target="_blank" rel="noopener" class="link">Explore</a>
-
-
-              </div>
-            </div>
-            <!-- Update img src and alt attribute  -->
-            <picture class="work-img">
-              <img loading="lazy" src="https://i.postimg.cc/1XJc2NXS/image.png" alt="contribute dev" />
-            </picture>
-          </div>
-          <div class="work-box">
-            <div class="work-textbox">
-              <!-- Add your project title here -->
-              <h3 class="h3">Homeless Outreach Associate | United Way</h3>
-              <!-- Add small description of your project  -->
-              <p class="work-text">
-                AmeriCorps Sep 2009 - Sep 2010
-              </p>
-              <ul>
-
-                <li>Planned and coordinated community outreach events, organizing 100-person events</li>
-                <li>Recruited and selected potential members at job fairs</li>
-                <li>Coached and mentored new team members on AmeriCorps values and job functions</li>
-                <li>Provided clients with career-building opportunities like resume writing and interview techniques
-                </li>
-              </ul>
-
-
-              <div class="work-links">
-                <!-- Add url of project in href attribute -->
-                <a href="https://americorps.gov/" target="_blank" rel="noopener" class="link">Explore</a>
-
-                <!-- Add link to project source code in href attribute if applicable otherwise feel free to delete or comment the markup -->
-
-              </div>
-            </div>
-            <!-- Update img src and alt attribute  -->
-            <picture class="work-img">
-              <img loading="lazy" src="https://americorps.gov/themes/americorps/logo.svg" alt="contribute dev" />
-            </picture>
-          </div>
-          <div class="work-box">
-            <div class="work-textbox">
-              <!-- Add your project title here -->
-              <h3 class="h3">
-                Juvenile SpecialistJuvenile Specialist
-              </h3>
-              <!-- Add small description of your project  -->
-              <p class="work-text">
-                The Guidance Center
-              </p>
-              <ul>
-
-                <li>Managed youth cases, developed treatment plans, and conducted drug screenings</li>
-                <li>Visited detention centers and attended court hearings</li>
-                <li>Facilitated life skills groups and monitored treatment compliance</li>
-
-              </ul>
-
-              <div class="work-links">
-                <!-- Add url of project in href attribute -->
-                <a href="https://www.guidance-center.org" target="_blank" rel="noopener" class="link">Explore</a>
-
-                <!-- Add link to project source code in href attribute if applicable otherwise feel free to delete or comment the markup -->
-
-              </div>
-            </div>
-            <!-- Update img src and alt attribute  -->
-            <picture class="work-img">
-              <img loading="lazy"
-                src="https://www.guidance-center.org/wp-content/uploads/2022/09/the-guidance-center-horiz-logo-1.jpg"
-                alt="contribute dev" />
-            </picture>
-          </div>
         </div>
       </div>
     </section>
@@ -287,473 +248,200 @@
 
     <section class="article">
       <div class="container">
-        <h2 class="h2" id="blog">My Skills</h2>
+        <h2 class="h2" id="blog">My Articles</h2>
         <div class="article-boxes">
           <article class="article-box featured-article">
             <div class="article-textbox">
               <div>
-                <h3 class="h3 skillls">
-                  <ul>
-                    <li>Business Development <br></li>
-                    <li>Leadership & Team Building<br></li>
-                    <li>Problem Solving & Prioritization <br></li>
-                    <li> Organizational skills <br></li>
-                    <li> Excellent Verbal and Written Communication</li>
-                  </ul>
+                <h3 class="h3">
+                  22 Useful CSS Tips and Tricks Every Developer Should Know
                 </h3>
-
-
+                <p class="article-text">
+                  Note: All the tips, tricks shared in this article are part
+                  of my GitHub repository css tips tricks A handmade
+                  collection of pro css tips tricks for developers.
+                </p>
+              </div>
+              <div class="article-info">
+                <a href="https://dev.to/devtamoor" class="link" target="_blank" rel="noopener">Continue reading</a>
+                <span class="reaction-count">
+                  <img src="./assets/images/heart-outline.svg" alt="heart" />
+                  416
+                </span>
               </div>
             </div>
             <picture class="article-illustration">
-              <img src="https://i.postimg.cc/PJFwmj7L/image.png" alt="MacBook Pro" loading="lazy" />
+              <img src="assets/images/featured-blog.webp" alt="MacBook Pro" loading="lazy" />
             </picture>
-            <style>
-              /* General Styles */
-              .article-box {
-                display: flex;
-                flex-direction: column;
-                /* Stack elements vertically */
-                gap: 20px;
-                /* Space between text and image */
-                padding: 20px;
-                box-sizing: border-box;
-              }
-
-              .h3.skills {
-                margin: 0;
-                padding: 0;
-                font-size: 18px;
-                /* Adjust font size */
-              }
-
-              .h3.skills ul {
-                list-style-type: none;
-                /* Remove default list bullets */
-                padding: 0;
-                margin: 0;
-              }
-
-              .h3.skills li {
-                margin-bottom: 10px;
-                /* Space between list items */
-              }
-
-              /* Media Queries */
-              @media (min-width: 768px) {
-                .article-box {
-                  flex-direction: row;
-                  /* Stack elements horizontally on larger screens */
-                  /* Center align items vertically */
-                  gap: 20px;
-                  /* Space between text and image */
-                }
-
-                .article-textbox {
-                  flex: 1;
-                  /* Allow text box to take available space */
-                }
-
-                .article-illustration {
-                  flex: 1;
-                  /* Allow image to take available space */
-                }
-
-                .article-illustration img {
-                  width: 100%;
-                  /* Make image responsive */
-                  height: auto;
-                  /* Maintain aspect ratio */
-                  max-height: 350px;
-                  /* Set a maximum height for the image */
-                  object-fit: cover;
-                  border-radius: 8px;
-                  /* Optional: add rounded corners */
-                }
-              }
-
-              @media (max-width: 767px) {
-
-
-                .article-illustration img {
-                  width: 100%;
-                  /* Make image responsive */
-                  height: auto;
-                  /* Maintain aspect ratio */
-                }
-              }
-            </style>
           </article>
           <article class="article-box">
             <div class="article-textbox">
               <div>
-                <h3 class="h4">TECHNICAL SKILLS</h3>
+                <h3 class="h4">JavaScript Default Function Parameters.</h3>
                 <p class="article-text">
-                  <ul>
-                    <li>Microsoft Office <br></li>
-                    <li>Salesforce<br></li>
-                    <li>Cybersecurity <br></li>
-                    <li> SaaS | CRM | AI <br></li>
-                    <li> Big Data |iOS/Android|</li>
-                    <li> Windows| HRIS| </li>
-                  </ul>
-
+                  In JavaScript when we call a function which expects some
+                  data to be passed in if you call that without passing
                 </p>
               </div>
-
+              <div class="article-info">
+                <a href="https://dev.to/devtamoor" class="link" target="_blank" rel="noopener">Continue reading</a>
+                <span class="reaction-count">
+                  <img src="./assets/images/heart-outline.svg" alt="heart" loading="lazy" />
+                  47
+                </span>
+              </div>
             </div>
           </article>
           <article class="article-box">
             <div class="article-textbox">
               <div>
                 <h3 class="h4">
-                  Core Competencies
-
+                  Free Open-source porjects/models for developers ✨
                 </h3>
                 <p class="article-text">
-                  <ul>
-                    <li>Negotiations</li>
-                    <li>Employee Relations</li>
-                    <li>Partnership Building</li>
-                    <li>Presentation Skills</li>
-                    <li>Strategic Planning</li>
-                    <li>Training and Development</li>
-                  </ul>
-
+                  A beautiful, minimal and accessible portfolio template for
+                  Developers which is completely free and Open Source.
                 </p>
               </div>
-
+              <div class="article-info">
+                <a href="https://dev.to/devtamoor/free-open-source-portfolio-template-for-developers-4g1d"
+                  class="link" target="_blank" rel="noopener">Continue reading</a>
+                <span class="reaction-count">
+                  <img src="./assets/images/heart-outline.svg" alt="heart" loading="lazy" />
+                  177
+                </span>
+              </div>
             </div>
           </article>
           <article class="article-box">
             <div class="article-textbox">
               <div>
-                <h3 class="h4">Professional Skills</h3>
-                <p class="article-text">
-                  <ul>
-                    <li>Sales</li>
-                    <li>Government Contracting</li>
-                    <li>Strong Interpersonal Skills</li>
-                    <li>Regulatory Compliance</li>
-                    <li>Talent Acquisition</li>
-                    <li>Marketing</li>
-                  </ul>
-                </p>
-
+                <h3 class="h4">HTML tips and tricks.</h3>
+                <div class="article-text">
+                  In my very last article I shared some JavaScript tips and
+                  tricks In this article I will be covering HTML tips and
+                  tricks.
+                </div>
               </div>
-
+              <div class="article-info">
+                <a href="https://dev.to/devtamoor" class="link" target="_blank" rel="noopener">Continue reading</a>
+                <span class="reaction-count">
+                  <img loading="lazy" src="./assets/images/heart-outline.svg" alt="heart" />
+                  350
+                </span>
+              </div>
             </div>
           </article>
         </div>
       </div>
     </section>
 
+    <!-- Update skills-img src, alt  and title attributes I have added some other logos in assets/images/skill for your convenience feel free to pick one if required  -->
 
-
-    <section>
-      <h2 class="h2">Education</h2>
-      <div class="container_grid">
-        <div class="one same">
-          <div class="pic">
-            <img
-              src="https://media.licdn.com/dms/image/D4E0BAQGUHrm7gZ6AQA/company-logo_100_100/0/1687533758176/yale_school_of_management_logo?e=1729728000&v=beta&t=F0akEH0w43UnVD533JgipT57s2bY-LCdK4Ys1a9rdcs"
-              alt="">
-            <h1>Yale School of Management</h1><br>
-          </div>
-          <div class="content">
-            <br>
-            <ul>
-              <li>Executive Education, Women's Leadership Program</li>
-            </ul>
-          </div>
-        </div>
-        <div class="two same">
-          <div class="pic">
-            <img
-              src="https://media.licdn.com/dms/image/D560BAQFtFlAVFQ8YVA/company-logo_100_100/0/1707171907739/saint_james_school_of_medicine_2_logo?e=1729728000&v=beta&t=W3RjyCj-Jxcrgq5TUIq0PL-IAHmwgC8GB4A8yuyJUYk"
-              alt="">
-            <h1>Saint James School of Medicine</h1><br>
-          </div>
-          <div class="content">
-            <br>
-            <ul>
-              <li>Doctor of Medicine - MD</li>
-            </ul>
-          </div>
-        </div>
-        <div class="three same">
-          <div class="pic">
-            <img
-              src="https://media.licdn.com/dms/image/C560BAQEGQYvlDi-5OQ/company-logo_100_100/0/1630646463814/university_of_phoenix_logo?e=1729728000&v=beta&t=wcOSwFSmxKkX1Ik3t7BXe6lCsYrqfCmViqLiHdhM2XE"
-              alt="">
-            <h1>University of Phoenix</h1><br>
-          </div>
-          <div class="content">
-            <br>
-            <ul>
-              <li>Master of Science - MS, Mental Health Counseling</li>
-            </ul>
-          </div>
-        </div>
-        <div class="four same">
-          <div class="pic">
-            <img
-              src="https://media.licdn.com/dms/image/C560BAQFx0VIjYYSXBw/company-logo_100_100/0/1645471386372/michigan_state_university_logo?e=1729728000&v=beta&t=M3-Y3ofPRPv5xoBwitnGnyGymDy7dYVlNAhboYi7gGI"
-              alt="">
-            <h1>Michigan State University</h1><br>
-          </div>
-          <div class="content">
-            <br>
-            <ul>
-              <li>Bachelor of Arts - BA, Psychology</li>
-              <li>Michigan State University Alumni Association</li>
-              <li>MSU Adolescent Diversion Project</li>
-              <li>MSU African American Mentoring Program</li>
-              <li>MSU Black Student Alumni Association</li>
-            </ul>
-          </div>
+    <section class="skills">
+      <div class="container">
+        <h2 class="h2" id="skills">My Toolkit</h2>
+        <div class="skills-imgs">
+          <img src="assets/images/skills/php.jpeg" alt="React" class="skills-img" loading="lazy" title="React">
+          <img src="assets/images/skills/python.jpeg" alt="Svelte" class="skills-img" loading="lazy" title="Svelte">
+          <img src="assets/images/skills/typescript.webp" alt="Typescript" class="skills-img" loading="lazy"
+            title="Typescript">
+          <img src="assets/images/skills/postgress.jpeg" alt="Accessibility" class="skills-img" loading="lazy"
+            title="Web Accessibility">
+          <img src="assets/images/skills/shell.webp" alt="Shell" class="skills-img" loading="lazy" title="Shell">
+          <img src="assets/images/skills/dj.jpeg" alt="NextJS" class="skills-img" loading="lazy" title="NextJS">
+          <img src="assets/images/skills/mjml.jpeg" alt="Graph Ql" class="skills-img" loading="lazy"
+            title="Graph QL">
+          <img src="assets/images/skills/git.webp" alt="Git" class="skills-img" loading="lazy" title="Git">
+          <img src="assets/images/skills/html.webp" alt="CSS" class="skills-img" loading="lazy" title="CSS">
+          <img src="assets/images/skills/js.webp" alt="JavaScript" class="skills-img" loading="lazy" title="JavaScript">
+          </figure>
         </div>
       </div>
     </section>
 
-    <style>
-      .container_grid {
-        padding: 4% 18%;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 20px;
-      }
-
-      .container_grid .same {
-        width: 100%;
-        max-width: 450px;
-        height: auto;
-        padding: 20px;
-        box-sizing: border-box;
-      }
-
-      .pic {
-        display: flex;
-        gap: 15px;
-        align-items: center;
-      }
-
-      .pic img {
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-      }
-
-      @media (max-width: 768px) {
-        .container_grid {
-          padding: 4% 10%;
-          grid-template-columns: 1fr;
-        }
-
-        .pic {
-          flex-direction: column;
-          align-items: flex-start;
-        }
-
-        .pic img {
-          margin-bottom: 10px;
-        }
-      }
-
-      @media (max-width: 480px) {
-        .container_grid {
-          padding: 4% 5%;
-        }
-
-        .pic img {
-          width: 40px;
-          height: 40px;
-        }
-      }
-    </style>
+    <!-- Replace testimonials, author name, author job, img src and, alt attributes -->
 
     <section>
-      <h2 class="h2">Affiliations & Memberships</h2>
-      <div class="container_list">
-        <ul>
-          <li>Government Finance Officers Association (GFOA)</li>
-          <li>Michigan Labor Economic Opportunity Workforce Development</li>
-          <li>Michigan State University Alumni Association</li>
-          <li>Michigan State Medical Society (MSMS)</li>
-          <li>Jubilee Village: Founder/President</li>
-          <li>The American Counseling Association (ACA)</li>
-          <li>National Association for the Advancement of Colored People (NAACP)</li>
-          <li>Detroit Athletic Club</li>
-          <li>Michigan Council of Women in Technology</li>
-          <li>Black Leaders Detroit</li>
-        </ul>
-      </div>
-      <style>
-        /* General Styles */
-        .container_list {
-          padding: 4% 18%;
-        }
+      <h2 class="h2">Testimonials</h2>
+      <div class="container">
+        <ol class="testimonials">
+          <li class="testimonial">
+            <blockquote class="testimonial-text">
+              Tamoordev's work on my marketing email template was exceptional.His professionalism, timely delivery, and clear communication highly recommend him for future projects.
+            </blockquote>
+            <figure class="testimonial-author">
+              <img src="assets/images/testimonials/rich-harris.png" alt="Rich Harris" loading="lazy" />
+              <figcaption>
+                <h3 class="testimonial-author-name">xristos_'s</h3>
+                
+              </figcaption>
+            </figure>
+          </li>
+          <li class="testimonial">
+            <blockquote class="testimonial-text">
+              Tamoordev is a fantastic developer. Great work, exceeded my expectations.
+            </blockquote>
+            <figure class="testimonial-author">
+              <img src="assets/images/testimonials/frank-mcsherry.webp" alt="Andrew Mead" loading="lazy" />
+              <figcaption>
+                <h3 class="testimonial-author-name">
+                  Andrew Mead
+                </h3>
+                <p class="testimonial-author-job">Chief Scientist @Logos 
+                </p>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="testimonial">
+            <blockquote class="testimonial-text">
 
-        .container_list ul {
-
-
-          list-style-type: none;
-          /* Remove default list bullets */
-          padding: 0;
-          margin: 0;
-
-          /* Border around the list */
-          border-radius: 5px;
-
-          box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-
-        }
-
-        .container_list li {
-
-
-
-          padding: 10px;
-
-          font-size: 20px;
-          /* Adjust font size */
-        }
-
-        /* Media Queries */
-        @media (max-width: 768px) {
-          .container_list {
-            padding: 4% 10%;
-          }
-        }
-
-        @media (max-width: 480px) {
-          .container_list {
-            padding: 4% 5%;
-          }
-
-          .container_list li {
-            font-size: 14px;
-            /* Slightly smaller font size for very small screens */
-          }
-        }
-      </style>
-    </section>
-
-
-
-    <section>
-      <h2 class="h2">Trainings</h2>
-      <div class="container_grid">
-        <div class="one same">
-          <div class="pic">
-            <img
-              src="https://www.michigan.gov/dtmb/-/media/Project/Websites/shared/Site-Logos/MichiganGlobal-logo-Icon.svg?rev=22e6883637c14198a04a5cad5e6bfe54&hash=152C68B3C0BE6C53E0E433B3F02C6198"
-              alt="">
-            <h1>State of Michigan</h1><br>
-          </div>
-          <div class="content">
-            <br>
-            <p>DEI-Implicit Bias Compliance Training</p>
-          </div>
-        </div>
-        <div class="two same">
-          <div class="pic">
-            <img
-              src="https://www.michigan.gov/dtmb/-/media/Project/Websites/shared/Site-Logos/MichiganGlobal-logo-Icon.svg?rev=22e6883637c14198a04a5cad5e6bfe54&hash=152C68B3C0BE6C53E0E433B3F02C6198"
-              alt="">
-            <h1>SUITE</h1><br>
-          </div>
-          <div class="content">
-            <br>
-            <p>Business Analyst Professional (BAP)</p>
-          </div>
-        </div>
-        <div class="three same">
-          <div class="pic">
-            <img
-              src="https://www.michigan.gov/dtmb/-/media/Project/Websites/shared/Site-Logos/MichiganGlobal-logo-Icon.svg?rev=22e6883637c14198a04a5cad5e6bfe54&hash=152C68B3C0BE6C53E0E433B3F02C6198"
-              alt="">
-            <h1>SUITE</h1><br>
-          </div>
-          <div class="content">
-            <br>
-            <p>Project, Program, and Portfolio Management Methodology (3PMM)</p>
-          </div>
-        </div>
-        <div class="four same">
-          <div class="pic">
-            <img
-              src="https://www.michigan.gov/dtmb/-/media/Project/Websites/shared/Site-Logos/MichiganGlobal-logo-Icon.svg?rev=22e6883637c14198a04a5cad5e6bfe54&hash=152C68B3C0BE6C53E0E433B3F02C6198"
-              alt="">
-            <h1>State of Michigan</h1><br>
-          </div>
-          <div class="content">
-            <br>
-            <p>Cybersecurity</p>
-          </div>
-        </div>
+              It was a pleasure working with Tamoor. He's very patient, professional, and delivered excellent work. Highly recommended.
+            </blockquote>
+            <figure class="testimonial-author">
+              <img src="assets/images/testimonials/brian-hirsh.png" alt="Brian Hirsh" loading="lazy" />
+              <figcaption>
+                <h3 class="testimonial-author-name">anwaarulhaq058's </h3>
+                <p class="testimonial-author-job">junior dev @Zero-in</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="testimonial">
+            <blockquote class="testimonial-text">
+              Tamoordev is a true professional with amazing talent. He is a creative
+              thinker, has his finger on the pulse of whats to come, and
+              absolutely one of the quickest and best problem solvers I have
+              ever met.
+            </blockquote>
+            <figure class="testimonial-author">
+              <img src="assets/images/testimonials/adam.png" alt="Adam Argalye" loading="lazy" />
+              <figcaption>
+                <h3 class="testimonial-author-name">Abdullah wajhee</h3>
+                <p class="testimonial-author-job">CEO @LambdaEase</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="testimonial">
+            <blockquote class="testimonial-text">
+              Tamoordev is one of my favourite people to work with. He's my go-to colleague when trouble shooting any new
+              technique or technology because she understands how to tackle unknown problems with gumption.
+            </blockquote>
+            <figure class="testimonial-author">
+              <img src="assets/images/testimonials/val-head.png" alt="Val Head" loading="lazy" />
+              <figcaption>
+                <h3 class="testimonial-author-name">Jani</h3>
+                <p class="testimonial-author-job">Senior developer @Janitech>
+              </figcaption>
+            </figure>
+          </li>
+          
+        </ol>
       </div>
     </section>
-
-    <style>
-      .container_grid {
-        padding: 4% 18%;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 20px;
-      }
-
-      .container_grid .same {
-        width: 100%;
-        max-width: 450px;
-        height: auto;
-        padding: 20px;
-        box-sizing: border-box;
-      }
-
-      .pic {
-        display: flex;
-        gap: 15px;
-        align-items: center;
-      }
-
-      .pic img {
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-      }
-
-      @media (max-width: 768px) {
-        .container_grid {
-          padding: 4% 10%;
-          grid-template-columns: 1fr;
-        }
-
-        .pic {
-          flex-direction: column;
-          align-items: flex-start;
-        }
-
-        .pic img {
-          margin-bottom: 10px;
-        }
-      }
-
-      @media (max-width: 480px) {
-        .container_grid {
-          padding: 4% 5%;
-        }
-
-        .pic img {
-          width: 40px;
-          height: 40px;
-        }
-      }
-    </style>
 
     <section class="contact">
       <div class="container">
-        <h2 class="h2" id="contact">Contact Information</h2>
+        <h2 class="h2" id="contact">Send Message</h2>
         <div class="contact-content">
           <div class="contact-textbox">
             <!-- Please comment this component if you're not available for hire -->
@@ -762,41 +450,32 @@
               Available for hire
             </strong>
             <p class="contact-text">
-              Highly accomplished and solutions-oriented leader with over 15 years of diverse experience in business
-              development, sales, talent acquisition, and government relations across various sectors, including tech
-              and non-profit organizations.
+              As a software engineer, I construct web interfaces and design
+              systems with a special love for accessibility and the
+              performance. I tend to code things from scratch and enjoy
+              bringing ideas to life.
             </p>
-
-
+            <p class="contact-text">
+              I'm also an open-source developer, and in my spare time, I do
+              2d game development with using new Technologies.
+            </p>
+            
+            
           </div>
           <form action="#" class="contact-form" netlify>
             <div class="form-field">
-              <b>linkedin :</b> <a href="https://www.linkedin.com/in/deairah-mast-8179b11b"> <label
-                  for="name">https://www.linkedin.com/in/deairah-mast-8179b11b</label></a>
-              <b> Visit my Business :</b> <a href="https://me4ullc.com"> <label for="name">https://me4ullc.com
-                </label></a>
-
+              <label for="name">Name</label>
+              <input type="text" name="name" id="name" required />
             </div>
-
-
-
             <div class="form-field">
-
-              <b> Emails</b>
-              <h5 style="margin-left:8px ;">Personal</h3>
-                <label for="name">Banksdea@gmail.com</label>
-                <h5 style="margin-left:8px ;">Work</h3>
-                  <label for="name">
-                    Mastd1@Michigan.gov
-
-                  </label>
-                  <h5 style="margin-left:8px ;">Business</h3>
-                    <label for="name">info@me4ullc.com (Business) </label>
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" required inputmode="email" />
             </div>
-
-            <br> <a
-              href="https://mail.google.com/mail/u/0/?hl=en#inbox?compose=GTvVlcSBpDnctPtDDMPsKvjTpcnBrbZwgmXqTZJCfJZFNlkGBPGnQzXsTqDLKNDGplNbHTjLTSfsr"
-              class="btn btn-cta">Contact Me</a>
+            <div class="form-field">
+              <label for="message">How can I help you?</label>
+              <textarea name="message" id="message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-cta">Send</button>
           </form>
         </div>
       </div>
@@ -810,24 +489,26 @@
         <nav>
           <ol class="footer-links">
             <li class="footer-link">
-              <a title="Instagram" href="https://www.instagram.com/" target="_blank" rel="noopener"><img loading="lazy"
-                  src="https://img.icons8.com/?size=50&id=32309&format=png" /></a>
+              <a title="GitHub" href="https://github.com/Tamoor4201" target="_blank" rel="noopener"><img
+                  loading="lazy" src="assets/images/social-links/github.svg" alt="GitHub" /></a>
             </li>
-
             <li class="footer-link">
-              <a title="Linkedin" href="https://www.linkedin.com/in/deairah-mast-8179b11b/" target="_blank"
+              <a title="Codepen" href="#" target="_blank" rel="noopener"><img
+                  loading="lazy" src="assets/images/social-links/codepen.svg" alt="Codepen" /></a>
+            </li>
+            <li class="footer-link">
+              <a title="Linkedin" href="https://www.linkedin.com/in/tamoor-hassan-9a96b0217/" target="_blank"
                 rel="noopener"><img loading="lazy" src="assets/images/social-links/linkedin.svg" alt="Linkedin" /></a>
             </li>
             <li class="footer-link">
-              <a title="X" href="https://Twitter.com/" target="_blank" rel="noopener"><img loading="lazy"
-                  src="https://img.icons8.com/?size=50&id=phOKFKYpe00C&format=png" alt="Twitter" /></a>
+              <a title="Twitter" href="https://github.com/Tamoor4201" target="_blank" rel="noopener"><img
+                  loading="lazy" src="assets/images/social-links/twitter.svg" alt="Twitter" /></a>
             </li>
           </ol>
         </nav>
         <p class="footer-text">
-          &copy; <span>2024</span><a target="_blank" rel="noopener" href="">
-
-            DeAirah Mast. </a>
+          &copy; <span>2023</span> - Template designed & developed by <a target="_blank" rel="noopener"
+            href="https://github.com/Tamoor4201">Tamoordev/a>
         </p>
         <label class="theme-switch" for="theme-switch">
           <span>Dark Theme</span>
